@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Navbar />
-        <main>
+        <main className="overflow-hidden">
           <PageTransition>
             {children}
           </PageTransition>
