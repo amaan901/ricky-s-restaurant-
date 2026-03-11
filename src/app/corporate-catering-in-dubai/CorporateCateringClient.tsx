@@ -78,7 +78,7 @@ export function CorporateCateringClient() {
                     href={service.href}
                     className="group flex gap-4 items-center bg-stone-50 hover:bg-amber-50 border border-stone-100 hover:border-amber-200 rounded-xl p-4 transition-colors"
                   >
-                    <div className="relative w-24 h-20 rounded-lg overflow-hidden flex-shrink-0">
+                    <div className="relative w-24 h-20 rounded-lg overflow-hidden shrink-0">
                       <Image
                         src={service.image}
                         alt={service.title}

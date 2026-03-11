@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { CateringDetailPage } from "@/components/shared/CateringDetailPage";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Staff Catering in Dubai",
   description:

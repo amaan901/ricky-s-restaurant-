@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { AboutClient } from "./AboutClient";
-
+export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "About Us",
   description:

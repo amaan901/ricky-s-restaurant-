@@ -1,6 +1,7 @@
 import { Suspense, lazy } from "react";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { BelowFoldSections } from "@/components/sections/BelowFoldSections";
+export const dynamic = "force-static";
 
 export default function HomePage() {
   return (

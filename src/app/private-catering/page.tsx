@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PrivateCateringClient } from "./PrivateCateringClient";
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Private Catering in Dubai",

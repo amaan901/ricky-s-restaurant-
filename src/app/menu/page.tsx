@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { MenuClient } from "./MenuClient";
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Catering Menu",

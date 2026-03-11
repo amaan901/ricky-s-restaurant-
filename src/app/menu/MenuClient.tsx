@@ -53,7 +53,7 @@ function MenuItemCard({ item, index }: { item: MenuItem; index: number }) {
       <motion.div
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.2 }}
-        className="relative w-20 h-16 rounded-lg overflow-hidden flex-shrink-0"
+        className="relative w-20 h-16 rounded-lg overflow-hidden shrink-0"
       >
         <Image
           src={item.image}
